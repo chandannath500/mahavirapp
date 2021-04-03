@@ -1,0 +1,38 @@
+.header{
+    background-color: rgb(246, 248, 93);
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(224, 226, 112);
+    box-shadow:20px 20px 50px rgba(186, 231, 198, 0.5);
+    font-family: Georgia, sans-serif;
+}
+.header__logo{
+    width:200px;
+    margin: 7.86px 22.46px 3.76px 17.28px;
+    object-fit:contain;
+    /* box-shadow: 20px 20px 50px rgba(236, 235, 234, 0.918); */
+}
+.header__nav{
+    display:flex;
+    justify-content:space-evenly;
+}
+.header__option{
+    display:flex;
+    flex-direction:column;
+    margin-left:11.23px;
+    margin-right:11.23px;
+}
+.header__optionLineOne{
+    font-size:  30px;
+    font-weight: 800;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:rgb(22, 1, 1)
+}
+.header__optionLineOne:hover{
+    text-shadow: 5px 5px 7px rgb(179, 31, 5);
+}
